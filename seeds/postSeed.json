@@ -1,14 +1,14 @@
 [
   {
-    "name": "Dog and Databases",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
+    "title": "Dog and Databases",
+    "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
   },
   {
-    "name": "Cat Codecamp",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
+    "title": "Cat Codecamp",
+    "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
   },
   {
-    "name": "Parrot Programmers",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
+    "title": "Parrot Programmers",
+    "post_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra pretium tellus. Nam ullamcorper sodales sapien vitae malesuada. Aliquam semper posuere ornare. Duis malesuada eu nunc eu vehicula. Aliquam viverra magna nibh, at elementum sem pulvinar ut."
   }
 ]
