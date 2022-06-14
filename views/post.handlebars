@@ -2,7 +2,21 @@
   <h2>{{title}}</h2>
   <p>{{post_content}}</p>
   <p><b>{{user.name}}</b> ~ <i>{{format_date date_created}}</i></p>
-
-  <button class="btn btn-primary btn-comment">Comment</button>
+  <form action="submit" id="comment-form">
+    <div>
+        <label for="comment-text">Add a comment: </label>
+        <br>
+        <textarea name="comment-text" id="comment-text" cols="70" rows="3"></textarea>
+    </div>
+    <div>
+    <button type="submit" class="btn btn-primary btn-comment">Comment</button>
+    </div>
+</form>
+  {{!-- <button class="btn btn-primary btn-comment">Comment</button> --}}
   </p>
 </div>
+{{#each comments as |comment|}}
+{{>comment}}
+{{/each}}
+
+<script src="/js/comment.js"></script>
