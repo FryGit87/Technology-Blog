@@ -8,3 +8,5 @@ router.use('/posts', postRoutes)
 router.use('/comments', commentRoutes)
 
 module.exports = router
+
+//coments//post//id?????
