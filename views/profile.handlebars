@@ -30,7 +30,10 @@
     {{#each posts as |post|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h5>{{post.title}} <br> <button class="btn btn-sm btn-danger" data-id="{{post.id}}">Del</button> <button class="btn btn-sm btn-info"><a href="./homepage.handlebars"></a>Edit</button></h5>  
+        <h5>{{post.title}} <br>  
+        {{!-- <button class="btn btn-sm btn-info " data-id="{{post.id}}">Edit</button>  --}}
+        <button class="btn btn-sm btn-danger" data-id="{{post.id}}">Del</button>
+        </h5>  
         <p><a href="/post/{{post.id}}">{{post.post_content}}</a></p>
       </div>
  
